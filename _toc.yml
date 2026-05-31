@@ -7,7 +7,23 @@ parts:
   - caption: Mathematics
     chapters:
       - file: content/Mathematics/int_by_parts.md
+      - file: content/Mathematics/difeqs.md
+      - file: content/Mathematics/prob_stats.md
+  - caption: Transport Phenomena
+    chapters:
+      - file: content/Transport_Phenomena/constants_ndnumbers.md
+      - file: content/Transport_Phenomena/Mass-Energy-TP/mass_energy_landing.md
+        sections:
+        - file: content/Transport_Phenomena/Mass-Energy-TP/heatcond_cart.md
+        - file: content/Transport_Phenomena/Mass-Energy-TP/heatcond_cyl.md
+        - file: content/Transport_Phenomena/Mass-Energy-TP/massdifconv.md
         options:
           numbered: true
+      - file: content/Transport_Phenomena/Momentum-TP/momentum_landing.md
         sections:
-        - file: content/template-subchapter.md
+        - file: content/Transport_Phenomena/Momentum-TP/macromom.md
+        - file: content/Transport_Phenomena/Momentum-TP/micromom.md     
+        - file: content/Transport_Phenomena/Momentum-TP/hagenpoiseulle.md
+        - file: content/Transport_Phenomena/Momentum-TP/navierstokes.md
+        options:
+          numbered: true
