@@ -1,4 +1,4 @@
-# Open textbooks with Jupyter books
+# Molecular Transport Phenomena Pre-Course
 
 Welcome to the Jupyter Book for the Molecular Transport Phenomena Pre-Course for MSc Chemical Engineering at TU Delft! This pre-course was designed to ensure every student is ready to take Molecular Transport Phenomena.
 
