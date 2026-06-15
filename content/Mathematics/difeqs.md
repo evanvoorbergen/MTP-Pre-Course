@@ -18,7 +18,12 @@ $db/dt = C$
 ```{solution} ExerciseDI
 :label: SolutionDI
 :class: dropdown
+
+Solution:
 $b(t) =  Ct + C_1$, with $C_1$ a constant of integration. 
+
+Steps:
+$\frac{d^2 }{d t^2} \left( x^2\right) = \frac{d}{\partial t} \left(\frac{d}{d t} x^2 \right) = \frac{d}{d t} \left(2x\frac{d x}{d t}\right)$. Continue applying the chain rule in a similar fashion as for example in $\frac{d}{d t} \left( a b \right) = a \frac{d b}{d t} + b \frac{d a}{d t}$ with $a$ and $b$ two functions that depend on time. In this case, $a=2x$ and $b= \frac{d x}{d t}$.
 ```
 
 
