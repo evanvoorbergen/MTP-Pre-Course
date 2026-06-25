@@ -95,7 +95,6 @@ $d^2b/dt^2 = Cb$
 ```
 
 ```{hint}
-:label: Hint2ODE
 :class: dropdown
 Try a solution of the form $b(t) = e^{\lambda t}$
 ```
@@ -133,7 +132,6 @@ $d^2b/dt^2 = db/dt + Ct$
 ```
 
 ```{hint}
-:label: HintI2ODE
 :class: dropdown
 Split the solution into homogenous and particular parts.
 ```
