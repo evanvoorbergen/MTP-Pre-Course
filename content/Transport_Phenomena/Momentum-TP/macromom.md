@@ -1,7 +1,5 @@
 # Macroscopic Momentum Balances
 
-# Mass Diffusion and Convection
-
 ```{admonition} Connection to MTP
 * Chapter 4: Langevin Theory
 This forms the basis for modeling diffusion of a solute particle in a liquid.
