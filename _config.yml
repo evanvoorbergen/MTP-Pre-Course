@@ -83,7 +83,7 @@ launch_buttons:
 # Information about where the book exists on the web - note that due to incompatibility
 # with the logo change this has become redundant, see sphinx->config->html_theme_options
 repository:
-  url: https://gitlab.tudelft.nl/opentextbooks/template-book/ # Change this parameter (optional)
+  url: https://github.com/evanvoorbergen/MTP-Pre-Course # Change this parameter (optional)
   path_to_book: "" # Change this parameter (optional)
   branch: master # Change this parameter (optional)
 
