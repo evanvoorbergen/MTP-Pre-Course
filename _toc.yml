@@ -23,7 +23,7 @@ parts:
         sections:
         - file: content/Transport_Phenomena/Momentum-TP/macromom.md
         - file: content/Transport_Phenomena/Momentum-TP/micromom.md     
-        - file: content/Transport_Phenomena/Momentum-TP/hagenpoiseulle.md
+        # - file: content/Transport_Phenomena/Momentum-TP/hagenpoiseulle.md
         - file: content/Transport_Phenomena/Momentum-TP/navierstokes.md
         options:
           numbered: true
