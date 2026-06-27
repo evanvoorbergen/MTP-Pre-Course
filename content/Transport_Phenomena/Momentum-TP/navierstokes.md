@@ -21,23 +21,33 @@ $
  0 = \frac{1}{r} \frac{\partial }{\partial r} \left( r v_r\right) + \frac{1}{r} \frac{\partial }{\partial \theta} \left( v_{\theta} \right) + \frac{\partial }{\partial z} \left( v_z \right)
 $
 
-**Navier-Stokes: $\theta$-direction**
-$
-\rho\left(\frac{\partial v_r}{\partial t}+v_r\frac{\partial v_r}{\partial r}+\frac{v_\theta}{r}\frac{\partial v_r}{\partial \theta}-\frac{v_\theta^2}{r}+v_z\frac{\partial v_r}{\partial z}\right) = 
- - \frac{\partial p}{\partial r} + \eta \left[ \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial v_r}{\partial r}\right) -\frac{v_r}{r^2} +\frac{1}{r^2} \frac{\partial ^2}{\partial \theta^2} \left( v_r \right) - \frac{2}{r^2} \frac{\partial }{\partial \theta} \left( v_{\theta} \right)+ \frac{\partial ^2}{\partial z^2} \left( v_r\right) \right]|
-$
+**Navier-Stokes: $\theta$-direction**  
+
+$$
+\begin{split}
+\rho\left(\frac{\partial v_r}{\partial t}+v_r\frac{\partial v_r}{\partial r}+\frac{v_\theta}{r}\frac{\partial v_r}{\partial \theta}-\frac{v_\theta^2}{r}+v_z\frac{\partial v_r}{\partial z}\right) = \\
+- \frac{\partial p}{\partial r} + \eta \left[ \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial v_r}{\partial r}\right) -\frac{v_r}{r^2} +\frac{1}{r^2} \frac{\partial ^2}{\partial \theta^2} \left( v_r \right) - \frac{2}{r^2} \frac{\partial }{\partial \theta} \left( v_{\theta} \right)+ \frac{\partial ^2}{\partial z^2} \left( v_r\right) \right]
+\end{split}
+$$
 
 
-**Navier-Stokes: r-direction**
-$
-\rho\left(\frac{\partial v_\theta}{\partial t}+v_r\frac{\partial v_\theta}{\partial r}+\frac{v_\theta}{r}\frac{\partial v_\theta}{\partial \theta}-\frac{v_rv_\theta}{r}+v_z\frac{\partial v_\theta}{\partial z}\right) =
-- \frac{1}{r}\frac{\partial p}{\partial \theta} + \eta \left[ \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial v_{\theta}}{\partial r}\right) -\frac{v_{\theta}}{r^2} +\frac{1}{r^2} \frac{\partial ^2}{\partial \theta^2} \left( v_{\theta}\right)  + \frac{2}{r^2} \frac{\partial }{\partial \theta} \left( v_{r} \right)+ \frac{\partial ^2}{\partial z^2} \left( v_{\theta}\right) \right]
-$
+**Navier-Stokes: r-direction**  
 
-**Navier-Stokes: z-direction**
-$\rho\left(\frac{\partial v_z}{\partial t}+v_r\frac{\partial v_z}{\partial r}+\frac{v_\theta}{r}\frac{\partial v_z}{\partial \theta}+v_z\frac{\partial v_z}{\partial z}\right) =
-- \frac{\partial p}{\partial z} + \eta \left[ \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial v_z}{\partial r}\right) +\frac{1}{r^2} \frac{\partial ^2}{\partial \theta^2} \left( v_z \right) + \frac{\partial ^2}{\partial z^2} \left( v_z \right) \right]
-$
+$$
+\begin{split}
+\rho\left(\frac{\partial v_\theta}{\partial t}+v_r\frac{\partial v_\theta}{\partial r}+\frac{v_\theta}{r}\frac{\partial v_\theta}{\partial \theta}-\frac{v_rv_\theta}{r}+v_z\frac{\partial v_\theta}{\partial z}\right) = \\
+-\frac{1}{r}\frac{\partial p}{\partial \theta} + \eta \left[ \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial v_{\theta}}{\partial r}\right) -\frac{v_{\theta}}{r^2} +\frac{1}{r^2} \frac{\partial ^2}{\partial \theta^2} \left( v_{\theta}\right)  + \frac{2}{r^2} \frac{\partial }{\partial \theta} \left( v_{r} \right)+ \frac{\partial ^2}{\partial z^2} \left( v_{\theta}\right) \right]
+\end{split}
+$$
+
+**Navier-Stokes: z-direction**  
+
+$$
+\begin{split}
+\rho\left(\frac{\partial v_z}{\partial t}+v_r\frac{\partial v_z}{\partial r}+\frac{v_\theta}{r}\frac{\partial v_z}{\partial \theta}+v_z\frac{\partial v_z}{\partial z}\right) = \\
+-\frac{\partial p}{\partial z} + \eta \left[ \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial v_z}{\partial r}\right) +\frac{1}{r^2} \frac{\partial ^2}{\partial \theta^2} \left( v_z \right) + \frac{\partial ^2}{\partial z^2} \left( v_z \right) \right]
+\end{split}
+$$
 
 with $v_r$, $v_{\theta}$, and $v_z$ being the velocity components in the $r$, $\theta$, and $z$-direction.
 
@@ -75,7 +85,7 @@ Use the simplified continuity equation to further simplify the Navier-Stokes equ
 ```{solution} Exercise3NV
 :label: Solution3NV
 :class: dropdown
-The continuity equation (see {numref}`Solution2NV`) dictates that $\partial v_z/\partial z = 0$ such that the viscous term $\eta \frac{\partial^2v_z}{\partial z^2} $ equals zero. 
+The continuity equation (see solution for {numref}`Exercise2NV`) dictates that $\partial v_z/\partial z = 0$ such that the viscous term $\eta \frac{\partial^2v_z}{\partial z^2} $ equals zero. 
 
 The Navier-Stokes equations hence simplify to 
 $$ 0 = \frac{\partial p}{\partial z} -  \frac{\eta}{r} \frac{\partial }{\partial r}\left( r \frac{\partial v_z}{\partial r} \right)$$  
