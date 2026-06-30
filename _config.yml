@@ -128,5 +128,5 @@ sphinx:
       use_repository_button: True
  
       logo:
-        image_light: content/images/tudelft.png
-        image_dark:  content/images/tudelft-dark.png
+        image_light: content/images/mtp_logo_light.png
+        image_dark:  content/images/mtp_logo_dark.png
