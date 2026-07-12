@@ -130,3 +130,5 @@ sphinx:
       logo:
         image_light: content/images/mtp_logo_light.png
         image_dark:  content/images/mtp_logo_dark.png
+
+    html_extra_path: ["static"]

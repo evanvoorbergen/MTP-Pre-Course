@@ -14,7 +14,10 @@ Given that $x$ is a function of $t$, show that $\frac{d^2 }{d t^2} \left( x^2\ri
 ```{solution} ExerciseChainRule
 :label: SolutionChainRule
 :class: dropdown
-$\frac{d^2 }{d t^2} \left( x^2\right) = \frac{d}{\partial t} \left(\frac{d}{d t} x^2 \right) = \frac{d}{d t} \left(2x\frac{d x}{d t}\right)$. Continue applying the chain rule in a similar fashion as for example in $\frac{d}{d t} \left( a b \right) = a \frac{d b}{d t} + b \frac{d a}{d t}$ with $a$ and $b$ two functions that depend on time. In this case, $a=2x$ and $b= \frac{d x}{d t}$ 
+$\frac{d^2 }{d t^2} \left( x^2\right) = \frac{d}{\partial t} \left(\frac{d}{d t} x^2 \right) = \frac{d}{d t} \left(2x\frac{d x}{d t}\right)$. 
+
+Continue applying the chain rule in a similar fashion as for example in $\frac{d}{d t} \left( a b \right) = a \frac{d b}{d t} + b \frac{d a}{d t}$ with $a$ and $b$ two functions that depend on time.  
+In this case, $a=2x$ and $b= \frac{d x}{d t}$ 
 ```
 
 ## Direct Integration
@@ -26,7 +29,7 @@ $\frac{d^2 }{d t^2} \left( x^2\right) = \frac{d}{\partial t} \left(\frac{d}{d t}
 
 ```{exercise}
 :label: ExerciseDI
-$db/dt = C$
+$\frac{db}{dt} = C$
 ```
 ```{solution} ExerciseDI
 :label: SolutionDI
@@ -44,7 +47,7 @@ $b(t) =  Ct + C_1$, with $C_1$ a constant of integration.
 
 ```{exercise}
 :label: ExerciseSDE
-$db/dt = Cb$
+$\frac{db}{dt} = Cb$
 ```
 ```{solution} ExerciseSDE
 :label: SolutionSDE
@@ -61,7 +64,7 @@ $b(t) = C_1 e^{Ct}$, with $C_1$ a constant of integration.
 
 ```{exercise}
 :label: Exercise1ODE
-$db/dt = Cb + 2Ct$
+$\frac{db}{dt} = Cb + 2Ct$
 ```
 ```{solution} Exercise1ODE
 :label: Solution1ODE
@@ -91,7 +94,7 @@ $
 
 ```{exercise}
 :label: Exercise2ODE
-$d^2b/dt^2 = Cb$
+$\frac{d^2b}{dt^2} = Cb$
 ```
 
 ```{hint}
@@ -128,7 +131,7 @@ $\boxed{b(t) = C_1e^{\sqrt{C}t} + C_2e^{-\sqrt{C}t}}$
 
 ```{exercise}
 :label: ExerciseI2ODE
-$d^2b/dt^2 = db/dt + Ct$
+$\frac{d^2b}{dt^2} = \frac{db}{dt} + Ct$
 ```
 
 ```{hint}

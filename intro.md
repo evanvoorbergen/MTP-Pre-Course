@@ -6,9 +6,31 @@ This pre-course covers mathematical foundations and reviews BSc-level transport 
 
 
 ## Purpose of the Pre-Course
-The main goal of this chapter is to clarify the expected entry level for this course. It builds on courses in your undergraduate program, particularly on Transport Phenomena, Mathematics (including differential equations and statistical methods), Physical Chemistry, and Thermodynamics. Please note that some of you may have seen, instead of one course on 'Transport Phenomena', a series of separate courses on 'heat transfer', 'mass transfer', and 'fluid flow', which together comprise the area of Transport Phenomena. 
+The main goal of this pre-course is to clarify the expected entry level for this course. It builds on courses in your undergraduate program, particularly on Transport Phenomena, Mathematics (including differential equations and statistical methods), Physical Chemistry, and Thermodynamics. Please note that some of you may have seen, instead of one course on 'Transport Phenomena', a series of separate courses on 'heat transfer', 'mass transfer', and 'fluid flow', which together comprise the area of Transport Phenomena. 
 
 To pre-assess your **prior knowledge for the course**, ensure that you are familiar with these topics and comfortable solving the respective exercises. Completing the exercises helps you to identify the gaps in theoretical knowledge/practical skills, such that you have a chance to brush them up before the course starts.
+
+## Quiz
+At the start of the course, your prior knowledge will be assessed in a formative **quiz**. This quiz, along with the final assessment in this course, is not open-book nor open-note and no formula sheet is provided. It is therefore expected that all the provided exercises can be completed without external support. A calculator is permitted.
+
+## Estimated Time Commitment
+
+The pre-course is self-paced. The estimated time required for each section is provided below to help you plan your study schedule. The times are approximate and may vary depending on your prior knowledge.
+
+| Section | Estimated Time |
+|:--------|---------------:|
+| Integration by Parts | 1-2 hours |
+| Differential Equations | 1-2 hours |
+| Probability and Statistics | 3 hours |
+| Mass Diffusion - Cartesian | 0.5 hours |
+| Mass Diffusion - Cylindrical | 1 hour |
+| Mass Diffusion and Convection | 1-2 hours |
+| Macroscopic Momentum Balances | 0.5 hours |
+| Microscopic Momentum Balances | 1 hour |
+| Navier-Stokes | 1-2 hours |
+| **Total** | **10–14 hours** |
+
+
 
 ## Pre-Requisites for MTP
 ### 1. Mathematics

@@ -98,7 +98,7 @@ Give the general equation to calculate the mean position $\overline{x}$ from a d
 :label: Solution4pb
 :class: dropdown
 General equation for the mean position $\overline{x}$ of a distributed parameter  
-$$ \overline{x} = \frac{\int_{x=0}^L x pdf(x) dx }{ \int_{x=0}^L pdf(x) dx}$$
+$ \overline{x} = \frac{\int_{x=0}^L x pdf(x) dx }{ \int_{x=0}^L pdf(x) dx}$
 Since the probability density function we consider here is normalized, we immediately know that the denominator equals 1.
 ```
 
@@ -119,7 +119,7 @@ Give the general equation to calculate the mean square position $\overline{x^2}$
 ```{solution} Exercise6pb
 :label: Solution6pb
 :class: dropdown
-General equation for the mean square position $\overline{x^2}$ of a distributed parameter $$\overline{x^2} = \frac{\int_{x=0}^L x^2 pdf(x) dx}{\int_{x=0}^L pdf(x) dx}$$. 
+General equation for the mean square position $\overline{x^2}$ of a distributed parameter $\overline{x^2} = \frac{\int_{x=0}^L x^2 pdf(x) dx}{\int_{x=0}^L pdf(x) dx}$. 
 ```
 
 ```{exercise}
@@ -227,9 +227,9 @@ Here the possible outcomes are $n_i = \{2,3,4, \cdots , 11, 12\}$. The probabili
 | probability | $\frac{1}{36}$ | $\frac{2}{36}$ | $\frac{3}{36}$ | $\frac{4}{36}$ | $\frac{5}{36}$ | $\frac{6}{36}$ | $\frac{5}{36}$ | $\frac{4}{36}$ | $\frac{3}{36}$ | $\frac{2}{36}$ | $\frac{1}{36}$ |
 
 From this, we compute the average value:  
-$$
+$
 \overline{n} = \frac{\sum_{i=1}^N {p_i n_i}}{\sum_{i=1}^N {p_i}}
-$$
+$
 
 Substitution of the values for $n_i$ and $p_i$, we hence find $\overline{n} = 7$.
 

@@ -27,3 +27,6 @@ parts:
         - file: content/Transport_Phenomena/Momentum-TP/navierstokes.md
         options:
           numbered: true
+  - caption: Molecular Transport Phenomena
+    chapters:
+      - file: content/MTP_Course/mtp_handbook.md
